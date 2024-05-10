@@ -1,0 +1,25 @@
+Model Details
+Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes. The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks. Further, in developing these models, we took great care to optimize helpfulness and safety.
+
+Model developers Meta
+
+Variations Llama 3 comes in two sizes — 8B and 70B parameters — in pre-trained and instruction tuned variants.
+
+Input Models input text only.
+
+Output Models generate text and code only.
+
+Model Architecture Llama 3 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.
+
+Training Data	Params	Context length	GQA	Token count	Knowledge cutoff
+Llama 3	A new mix of publicly available online data.	8B	8k	Yes	15T+	March, 2023
+70B	8k	Yes	December, 2023
+Llama 3 family of models. Token counts refer to pretraining data only. Both the 8 and 70B versions use Grouped-Query Attention (GQA) for improved inference scalability.
+
+Model Release Date April 18, 2024.
+
+Status This is a static model trained on an offline dataset. Future versions of the tuned models will be released as we improve model safety with community feedback.
+
+License A custom commercial license is available at: https://llama.meta.com/llama3/license
+
+Where to send questions or comments about the model Instructions on how to provide feedback or comments on the model can be found in the model README. For more technical information about generation parameters and recipes for how to use Llama 3 in applications, please go here.
